@@ -5,4 +5,4 @@ router = APIRouter()
 
 @router.get('')
 def hello_world() -> dict:
-    return {'msg': 'Hello, World!'}
+    return {'msg': "I'm exploring Docker!"}
